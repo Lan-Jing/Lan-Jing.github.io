@@ -96,11 +96,9 @@ author:
   name             : "Jing Lan"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Undergraduate student in Sun Yat-sen University."
-  location         : "Guangzhou, China"
+  location         : "Guangzhou, Guangdong, China"
+  email            : "lanj25@mail2.sysu.edu.cn"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "lanj25@mail2.sysu.edu.cn"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Lan-Jing"
@@ -116,6 +114,7 @@ footer:
 include:
   - .htaccess
   - _pages
+  - _posts
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -141,8 +140,6 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
   - .svn
@@ -245,9 +242,13 @@ defaults:
       type: posts
     values:
       layout: single
+      toc : true
+      toc_label : "Table of Contents"
       author_profile: true
       read_time: true
       comments: true
       share: true
       related: true
       show_date: true
+    sidebar:
+      nav : "docs"

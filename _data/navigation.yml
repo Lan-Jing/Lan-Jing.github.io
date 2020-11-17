@@ -8,3 +8,11 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+docs:
+  - title: "Category"
+    text: "Grouped posts"
+    url: /docs/Category/
+  - title: "Posts"
+    url: /docs/Posts/
+    text: "Recent posts"
