@@ -1,3 +1,9 @@
+---
+title: "First Post: Helloworld!"
+categories:
+  - Uncategorized
+---
+
 # Helloworld！
 
 花了几个小时的时间创建了这个暂时什么都没有的博客。在这里提交第一个post好了。

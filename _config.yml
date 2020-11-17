@@ -96,7 +96,7 @@ author:
   name             : "Jing Lan"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Undergraduate student in Sun Yat-sen University."
-  location         : "Guangzhou, Guangdong, China"
+  location         : "Guangzhou, China"
   email            : "lanj25@mail2.sysu.edu.cn"
   links:
     - label: "GitHub"
