@@ -3,6 +3,7 @@ title: "Security: Privacy-Preserving Federated Learning."
 categories:
   - AI
   - System
+  - Math
 ---
 
 Conducted a mini survey on design of federated learning system and how people solve privacy issues.
@@ -29,6 +30,6 @@ Shokri, Reza, and Vitaly Shmatikov. "Privacy-preserving deep learning." Proceedi
 
 Aono, Yoshinori, et al. "Privacy-preserving deep learning via additively homomorphic encryption." IEEE Transactions on Information Forensics and Security 13.5 (2017): 1333-1345.
 
-## with Secure Multi-party Computation
+## with Masking and Secret Sharing
 
 Bonawitz, Keith, et al. "Practical secure aggregation for privacy-preserving machine learning." Proceedings of the 2017 ACM SIGSAC Conference on Computer and Communications Security. 2017.
