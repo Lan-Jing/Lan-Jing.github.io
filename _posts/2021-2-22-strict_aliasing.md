@@ -7,7 +7,7 @@ categories:
 
 ## What Are Strict Aliasing Rules
 
-The Strict Aliasing Rules are rules imposed by C standard, implemented by GNU C compilers to perform optimized code generation.
+The Strict Aliasing Rules are rules imposed by the C standard, implemented by GNU C compilers to perform optimized code generation.
 
 These rules contradict some of our naive ways to perform convenient memory access, leading to undefined behaviors of our running programs. This should be particularly taken care of in systems programming using C.
 
