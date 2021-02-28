@@ -17,7 +17,7 @@ Strict Aliasing Rules are in fact several assumptions on memory layout of the pr
 
 For example, with Strict Aliasing Rules the GCC compilers can remove repeated load instructions before each assignment, which may significantly speedup the loop execution. 
 
-Source: https://cellperformance.beyond3d.com/articles/2006/06/understanding-strict-aliasing.html
+[Source](https://cellperformance.beyond3d.com/articles/2006/06/understanding-strict-aliasing.html)
 
 ```c
 typedef struct
