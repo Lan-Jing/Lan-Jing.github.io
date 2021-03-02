@@ -1,5 +1,5 @@
 ---
-title: "Programming Languages: Strict Aliasing Rules"
+title: "Programming Languages: Strict Aliasing Rules (Updating)"
 categories:
   - System
   - PL
@@ -13,9 +13,9 @@ These rules contradict some of our naive ways to perform convenient memory acces
 
 ## Why Strict Aliasing Rules?
 
-Strict Aliasing Rules are in fact several assumptions on memory layout of the program. With these assumptions compilers are safe to perform optimizations on load/store instructions.
+Strict Aliasing Rules are several assumptions on the memory layout of the program. With these assumptions, compilers are safe to perform optimizations on load/store instructions.
 
-For example, with Strict Aliasing Rules the GCC compilers can remove repeated load instructions before each assignment, which may significantly speedup the loop execution. 
+For example, with Strict Aliasing Rules, the GCC compilers can remove repeated load instructions before each assignment, which may significantly speedup the loop execution. 
 
 [Source](https://cellperformance.beyond3d.com/articles/2006/06/understanding-strict-aliasing.html)
 
@@ -39,6 +39,6 @@ test( uint32_t* values,
  }
 ```
 
-The optimization can be done because GCC assumes *values[]* never overlaps with *uniform->b*, so only one load is needed for *uniform->b*. Without the assumption, GCC may expect *uniform->b* differs in each assignment, thus loading it many times. However, overlap is rarely the case.
+The optimization can be done because GCC assumes *values[]* never overlaps with *uniform->b*, so only one load is needed for *uniform->b*. Without the assumption, GCC may expect *uniform->b* differs in each assignment, thus loading it many times. However, overlapping is rarely the case.
 
 (Updating)
