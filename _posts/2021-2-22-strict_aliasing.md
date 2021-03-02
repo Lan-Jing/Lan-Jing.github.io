@@ -41,4 +41,4 @@ test( uint32_t* values,
 
 The optimization can be done because GCC assumes *values[]* never overlaps with *uniform->b*, so only one load is needed for *uniform->b*. Without the assumption, GCC may expect *uniform->b* differs in each assignment, thus loading it many times. However, overlap is rarely the case.
 
-## Other Practice
+(Updating)
