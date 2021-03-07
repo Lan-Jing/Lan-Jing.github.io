@@ -5,9 +5,9 @@ categories:
   - System
 ---
 
-Spent few days getting into some classic design of parallel, distributed machine learning systems.
+Spent few days getting into some classic designs of parallel, distributed machine learning systems.
 
-[Fedetated learning](/_posts/2020-12-28-securityProjects.md) is quite a different thing. Researchers focus on secure protocols, computation and datasets. But distributed learning is about high performance, easy development and deployment.
+[Federated learning](/_posts/2020-12-28-securityProjects.md) is quite a different thing. Researchers focus on secure communication,  computation, and datasets. But distributed learning is about high performance, easy development, and deployment.
 
 ## MPI: Simple Collective Operations
 
