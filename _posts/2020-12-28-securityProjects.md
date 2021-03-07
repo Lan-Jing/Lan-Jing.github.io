@@ -6,7 +6,9 @@ categories:
   - Math
 ---
 
-Conducted a mini survey on design of federated learning system and how people solve privacy issues.
+Conducted a mini survey on design of federated learning systems and how people solve privacy issues.
+
+Rank 6 / 132
 
 # Overview
 
