@@ -5,9 +5,9 @@ categories:
   - System
 ---
 
-Spent few days getting into some classic designs of parallel, distributed machine learning systems.
+Spent few days getting into some classic designs of parallel, distributed machine learning systems. It is often simple to parallelize AI applications since most of them are "embarrassingly parallel": processes in progress rarely communicate with each other. Therefore distributed learning systems focus on scalability, easy development and deployment, rather than extreme efficiency.
 
-[Federated learning](/_posts/2020-12-28-securityProjects.md) is quite a different thing. Researchers focus on secure communication,  computation, and datasets. But distributed learning is about high performance, easy development, and deployment.
+[Federated learning](https://lan-jing.github.io/ai/system/math/securityProjects/) is quite a different thing. Based on previous work, researchers are now interested in training better models in a collaborative effort, while keeping each participant's dataset secure and private.
 
 ## MPI: Simple Collective Operations
 
