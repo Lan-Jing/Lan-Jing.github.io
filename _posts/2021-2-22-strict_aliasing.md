@@ -1,5 +1,5 @@
 ---
-title: "Programming Languages: Strict Aliasing Rules (Updating)"
+title: "Programming Languages: Strict Aliasing Rules"
 categories:
   - System
   - PL
@@ -17,7 +17,7 @@ Strict Aliasing Rules are several assumptions on the memory layout of the progra
 
 For example, with Strict Aliasing Rules, the GCC compilers can remove repeated load instructions before each assignment, which may significantly speedup the loop execution. 
 
-[Source](https://cellperformance.beyond3d.com/articles/2006/06/understanding-strict-aliasing.html)
+[See this web for more details](https://cellperformance.beyond3d.com/articles/2006/06/understanding-strict-aliasing.html)
 
 ```c
 typedef struct
@@ -41,4 +41,25 @@ test( uint32_t* values,
 
 The optimization can be done because GCC assumes *values[]* never overlaps with *uniform->b*, so only one load is needed for *uniform->b*. Without the assumption, GCC may expect *uniform->b* differs in each assignment, thus loading it many times. However, overlapping is rarely the case.
 
-(Updating)
+## How to Do That Properly
+
+The so-called standard way of doing dynamic casting in C is by using union or pointers to union. For example, if one wants to read a 32-bit space as one **int** or two **shorts**, it's best to have your code like:
+
+```c
+typedef union
+{
+  uint32_t u32;
+  uint16_t u16[2];
+} U32;
+
+uint32_t swap_words(uint32_t arg)
+{
+  U32 in;
+  in.u32 = arg;
+  swap(in.u16[0], in.u16[1]);
+
+  return in.u32;
+}
+```
+
+Built-in types that are compatible(such as signed/unsigned int) are fine to be referenced by pointers of different types. In any circumstances, memory is allowed to be interpreted as char, using char*.
