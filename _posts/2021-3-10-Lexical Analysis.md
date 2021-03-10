@@ -33,7 +33,7 @@ Induction: if r and s are regular exprs,
 
 * $L(r\vert s)=L(r) \bigcup L(s)$
 * $L(rs)=L(r)L(s)$
-* $L(r^{*})=L(r)^{*}$
+* $L(r*)=L(r)*$
 * $L((r))=L(r)$
 
 ## Nondeterministic Finite Automaton (NFA)
