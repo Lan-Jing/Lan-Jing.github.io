@@ -17,8 +17,8 @@ This article covers some very basic concepts and algorithms for lexical analysis
 
 ### Language Operations
 
-* Union: $ L \bigcup M = \{s|s \in L \text{ or } s \in M\} $
-* Concatenation: $ LM = \{st|s \in L \text{ and } t \in M\}$
+* Union: $ L \bigcup M = \{s\text{|}s \in L \text{ or } s \in M\} $
+* Concatenation: $ LM = \{st\text{|}s \in L \text{ and } t \in M\}$
 * Kleene closure: $ L^*=\bigcup_{i=0}^{\infty}L^i $
 * Positive closure: $ L^+=\bigcup_{i=1}^{\infty}L^i $
 
@@ -31,9 +31,9 @@ It is defined in recursion. Base:
 
 Induction: if r and s are regular exprs,
 
-* $L(r|s)=L(r)\bigcup L(s)$
+* $L(r\text{|}s)=L(r) \bigcup L(s)$
 * $L(rs)=L(r)L(s)$
-* $L(r^*)=L(r)^*$
+* $L(r^{*})=L(r)^{*}$
 * $L((r))=L(r)$
 
 ## Nondeterministic Finite Automaton (NFA)
@@ -48,11 +48,13 @@ A regular expression can be expressed as an NFA. An NFA is formally a 5-tuple, $
 * $q_0$ is an initial state
 * $F \subseteq Q$ is a set of final states 
 
-From the initial state, an NFA maps each state $s$ to a set of succeeding states $S$. One can recursively construct the corresponding NFA from a regular expression, in a bottom-up manner:
+From the initial state, an NFA maps each state $s$ to a set $S$ of succeeding states. One can recursively construct the corresponding NFA from a regular expression, in a bottom-up manner:
 
 * For concatenation of two sub-expressions, link them directly.
 * For union operations, set two arms for each expr, then connect them with other parts, using $\epsilon$ as input symbols.
 * For Kleene closure, set a path backward from the end of the expr. And a shortcut to skip what is inside the closure(**not needed for positive closure**).
+
+![Regular Expr to NFA]({{ site.url }}{{ site.baseurl }}/assets/images/reg-to-nfa.png){: .align-center}
 
 ### Evaluate an Expression Using NFA
 
