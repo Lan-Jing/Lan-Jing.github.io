@@ -17,8 +17,8 @@ This article covers some very basic concepts and algorithms for lexical analysis
 
 ### Language Operations
 
-* Union: $ L \bigcup M = \{s\text{|}s \in L \text{ or } s \in M\} $
-* Concatenation: $ LM = \{st\text{|}s \in L \text{ and } t \in M\}$
+* Union: $ L \bigcup M = \{s\vert s \in L \text{ or } s \in M\} $
+* Concatenation: $ LM = \{st \vert s \in L \text{ and } t \in M\}$
 * Kleene closure: $ L^*=\bigcup_{i=0}^{\infty}L^i $
 * Positive closure: $ L^+=\bigcup_{i=1}^{\infty}L^i $
 
@@ -31,7 +31,7 @@ It is defined in recursion. Base:
 
 Induction: if r and s are regular exprs,
 
-* $L(r\text{|}s)=L(r) \bigcup L(s)$
+* $L(r\vert s)=L(r) \bigcup L(s)$
 * $L(rs)=L(r)L(s)$
 * $L(r^{*})=L(r)^{*}$
 * $L((r))=L(r)$
