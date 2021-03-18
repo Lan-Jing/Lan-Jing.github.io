@@ -62,4 +62,4 @@ uint32_t swap_words(uint32_t arg)
 }
 ```
 
-Built-in types that are compatible(such as signed/unsigned int) are fine to be referenced by pointers of different types. In any circumstances, memory is allowed to be interpreted as char, using char*.
+Built-in types that are **compatible**(such as signed/unsigned int) are fine to be referenced by pointers of different types. Particularly, in any circumstances, memory is allowed to be interpreted as char, using char*.
