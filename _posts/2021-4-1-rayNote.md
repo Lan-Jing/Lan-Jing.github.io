@@ -5,11 +5,10 @@ categories:
   - System
 ---
 
-# Ray
+Project Ray：
 
-应对深度强化学习的计算框架（？）
-
-**“高性能 分布式 Python RPC 计算框架”**
+* 应对深度强化学习的计算框架（？似乎不太成功）
+* **“高性能 分布式 Python RPC 计算框架”**
 
 和Spark(RDD)不同，Ray的调度核心是Tasks。
 
@@ -50,7 +49,7 @@ Moritz, Philipp, et al. "Ray: A distributed framework for emerging {AI} applicat
 * Object Manager：plasma -> Apache Arrow，**数据序列化，基于内存的对象存储**；单机内共享内存(zero-copy)模型，远程拉取数据（函数参数）到本地执行，拉取大块数据使用多线程gPRC。
 * Lineage Cache: 参考Spark RDD，无状态、不可变；重新执行以恢复。
 
-### 论文，0.5版本之前：
+### 论文-0.5版本之前：
 
 Bottom-up, distributed scheduler: 每个节点有一个本地调度器，某些节点上有全局调度器。
 
