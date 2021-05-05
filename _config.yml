@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Jing Lan"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Undergraduate student in Sun Yat-sen University. Now interested in HPC, Arch and Systems."
+  bio              : "Undergraduate student at Sun Yat-sen University. Now interested in HPC, Arch and Systems."
   location         : "Guangzhou, China"
   email            : "lanj25@mail2.sysu.edu.cn"
   links:
