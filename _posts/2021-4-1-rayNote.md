@@ -49,7 +49,7 @@ Moritz, Philipp, et al. "Ray: A distributed framework for emerging {AI} applicat
 * Object Manager：plasma -> Apache Arrow，**数据序列化，基于内存的对象存储**；单机内共享内存(zero-copy)模型，远程拉取数据（函数参数）到本地执行，拉取大块数据使用多线程gPRC。
 * Lineage Cache: 参考Spark RDD，无状态、不可变；重新执行以恢复。
 
-### 论文-0.5版本之前
+### 论文，0.5版本之前
 
 Bottom-up, distributed scheduler: 每个节点有一个本地调度器，某些节点上有全局调度器。
 
@@ -57,7 +57,7 @@ Bottom-up, distributed scheduler: 每个节点有一个本地调度器，某些�
 
 Driver程序提交任务之后，总是先尝试在本地执行。如果本地不能满足调度所需的资源，就转发到全局的调度器。全局调度器可以通过和GCS的心跳信息来获得集群的整体状况，然后选择一个比较适合的节点进行调度。
 
-### 0.5版本之后
+### 0.5 版本之后
 
 改为点对点直接进行调度 **（怎么实现？）**，看来全局调度器可能是比较严重的瓶颈？
 
