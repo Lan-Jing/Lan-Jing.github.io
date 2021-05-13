@@ -1,5 +1,5 @@
 ---
-title: "AI, System: Ray(Presentation Note)"
+title: "AI, System: Ray (Presentation Note)"
 categories:
   - AI
   - System
