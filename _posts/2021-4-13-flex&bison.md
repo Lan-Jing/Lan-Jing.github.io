@@ -1,5 +1,5 @@
 ---
-title: "Compilers: A Parser with Flex & Bison"
+title: " A Parser with Flex & Bison"
 categories:
   - PL
 ---

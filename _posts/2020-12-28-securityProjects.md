@@ -1,5 +1,5 @@
 ---
-title: "Security: Privacy-Preserving Federated Learning."
+title: "A Tiny Survey on Privacy-Preserving Federated Learning."
 categories:
   - AI
   - System

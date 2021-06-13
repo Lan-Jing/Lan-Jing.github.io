@@ -1,5 +1,5 @@
 ---
-title: "First Post: Helloworld!"
+title: "Helloworld!"
 categories:
   - Uncategorized
 ---

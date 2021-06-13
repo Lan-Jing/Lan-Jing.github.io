@@ -1,5 +1,5 @@
 ---
-title: "Compilers: Regular Expressions, Finite Automatons"
+title: "Regular Expressions, Finite Automatons"
 categories:
   - PL
   - Math

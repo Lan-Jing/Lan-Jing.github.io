@@ -1,5 +1,5 @@
 ---
-title: "Programming Languages: Strict Aliasing Rules"
+title: "Strict Aliasing Rules"
 categories:
   - System
   - PL
