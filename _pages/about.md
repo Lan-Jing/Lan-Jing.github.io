@@ -11,5 +11,8 @@ Currently, my research interest falls in high-performance computing and distribu
 
 News:
 
-* May 1st. We are working on Chinese Academy of Sciences PRA'21: [https://cas-pra.sugon.com/](https://cas-pra.sugon.com/). My Problem is migrating and optimizing CP2K on an AMD cluster(with ZEN1 CPUs and Mi50 GPUs).
+* May 1st. We are working on Chinese Academy of Sciences PRA'21: [Pages](https://cas-pra.sugon.com/). I'm working on:
+  *  Migrating and optimizing CP2K on an AMD cluster(with ZEN1 CPUs and Mi50 GPUs).
+  *  Code a high-performance, GPU-accelerated eigenpairs solver for large-scale complex hermitian matrices.
 * May 4th. Our submission to Student Cluster Competition @ SC21 has been received. 
+* July 1st. We won the 4th place & Honorable Mention at SCC @ ISC21! Only 0.3% behind the 3rd place. Big thanks to all the team members! [News](https://www.hpcadvisorycouncil.com/events/student-cluster-competition/index.php)
