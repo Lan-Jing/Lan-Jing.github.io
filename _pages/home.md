@@ -1,8 +1,8 @@
 ---
 title: "About"
-layout: splash
+layout: single
 permalink: /
-author_profile: false
+author_profile: true
 ---
 
 Hey, I am Lan, Jing, an undergraduate student majoring in computer science at Sun Yat-sen University. I am currently the active leader of [SYSU Student Cluster Competition Team](https://scc.sysu.tech/), and a research intern at the National Supercomputer Center in Guangzhou.
