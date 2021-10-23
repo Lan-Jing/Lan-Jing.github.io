@@ -1,5 +1,6 @@
 ---
 title: "Helloworld!"
+hidden: true
 categories:
   - Uncategorized
 ---

@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jing Lan's Blog"
+title                    : "Jing Lan"
 title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Jing Lan"
@@ -38,7 +38,7 @@ comments:
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
-    num_posts            : 6 # 5 (default)
+    num_posts            : 5 # (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
     theme                : # "github-light" (default), "github-dark"
@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Jing Lan"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Undergraduate student at Sun Yat-sen University. Now interested in HPC, Arch and Systems."
+  bio              : "HPC and Systems."
   location         : "Guangzhou, China"
   email            : "lanj25@mail2.sysu.edu.cn"
   links:
