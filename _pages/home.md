@@ -4,7 +4,7 @@ layout: splash
 permalink: /
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/ownership.png
+  overlay_image: /assets/images/chicago.jpg
 author_profile: true
 ---
 
