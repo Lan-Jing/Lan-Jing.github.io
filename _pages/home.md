@@ -13,6 +13,7 @@ Currently, my research interest falls in high-performance computing and distribu
 
 News:
 
+* Nov 27th. Decided to join CUHK CSE as an MPhil student. 
 * Nov 19th. We won *champion* (against strong teams UIUC, ETHz, Monash and TAMU) in IndySCC@SC'21, virtually at St. Louis, MO, USA. [News](https://twitter.com/Supercomputing/status/1461712128180690951)
 * Oct 15th. I won the Second Prize (3/65) in the CP2K track of [PRA'21](https://cas-pra.sugon.com/sugon/index2.html), held by Sugon, Baidu and CAS.
 * July 1st. We won the 4th place & Honorable Mention in SCC@ISC'21, virtually at Germany. [News](https://www.hpcadvisorycouncil.com/events/student-cluster-competition/index.php)
