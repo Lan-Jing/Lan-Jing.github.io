@@ -3,8 +3,6 @@ title: "About"
 layout: single
 classes: wide
 permalink: /
-header:
-  overlay_color: "#5e616c"
 author_profile: true
 ---
 
