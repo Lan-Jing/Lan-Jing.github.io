@@ -8,7 +8,7 @@ author_profile: true
 
 Hey, I am Jing LAN, an incoming MPhil student at CSE, Chinese University of Hong Kong (CUHK), supervised by [Prof. James Cheng](https://www.cse.cuhk.edu.hk/~jcheng/). 
 
-I was an undergraduate at Sun Yat-sen University, Where I did RA with [Prof. Dan Huang]. I spent two years (one year as leader) on HPC competitions with [SYSU Student Cluster Competition Team](https://scc.sysu.tech/).
+I was an undergraduate at Sun Yat-sen University, Where I did RA with [Prof. Dan Huang](https://scholar.google.com/citations?hl=en&user=Bo6PwnQAAAAJ&view_op=list_works&sortby=pubdate). I spent two years (one as leader) on HPC competitions with [SYSU Student Cluster Competition Team](https://scc.sysu.tech/).
 
 ## Research Interest
 
