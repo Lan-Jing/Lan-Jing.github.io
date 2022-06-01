@@ -12,7 +12,7 @@ I was an undergraduate at Sun Yat-sen University, Where I was an RA with [Prof. 
 
 ## Research Interests
 
-Distributed systems and high-performance Computing (HPC)
+Distributed systems and high-performance computing (HPC)
 
 ## Publications
 
