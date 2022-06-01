@@ -1,18 +1,25 @@
 ---
-title: "About"
+title: "About Me"
 layout: single
 classes: wide
 permalink: /
 author_profile: true
 ---
 
-Hey, I am Lan, Jing, an undergraduate student majoring in computer science at Sun Yat-sen University(SYSU). I am currently the leader of the [SYSU Student Cluster Competition Team](https://scc.sysu.tech/), and a research intern at the National Supercomputer Center in Guangzhou.
+Hey, I am Jing LAN, an incoming MPhil student at CSE, Chinese University of Hong Kong (CUHK), supervised by [Prof. James Cheng](https://www.cse.cuhk.edu.hk/~jcheng/). 
 
-Currently, my research interest falls in high-performance computing and distributed systems.
+I was an undergraduate at Sun Yat-sen University, Where I did RA with [Prof. Dan Huang]. I spent two years on HPC competitions with [SYSU Student Cluster Competition Team](https://scc.sysu.tech/).
 
-News:
+## Research Interest
 
-* Nov 27th, 2021. I Will join CSE @ CUHK as an MPhil student, supervised by Prof. James Cheng.
+Distributed Systems and High-performance Computing(HPC)
+
+## Publications
+
+TBD
+
+## News
+
 * Nov 19th, 2021. We won *champion* (against strong teams UIUC, ETHz, Monash and TAMU) in IndySCC@SC'21, virtually at St. Louis, MO, USA. [News](https://twitter.com/Supercomputing/status/1461712128180690951)
 * Oct 15th, 2021. I won the Second Prize (3/65, with ~$9,000 cash bonus) in the CP2K track of [PRA'21](https://cas-pra.sugon.com/sugon/index2.html), held by Sugon, Baidu and CAS.
-* Jul 1st, 2021. We won the 4th place & Honorable Mention in SCC@ISC'21, virtually at Germany. [News](https://www.hpcadvisorycouncil.com/events/student-cluster-competition/index.php)
+* Jul 1st, 2021. We won the 4th place & Honorable Mention in SCC@ISC'21, virtually at Frankfurt, Germany. [News](https://www.hpcadvisorycouncil.com/events/student-cluster-competition/index.php)
