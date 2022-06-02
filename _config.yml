@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Jing Lan"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "HPC and Systems."
+  bio              : "Systems and HPC."
   location         : "Guangzhou, China"
   email            : "lanj25@mail2.sysu.edu.cn"
   links:
