@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jing Lan"
+title                    : "Jing LAN"
 title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Jing Lan"
+name                     : "Jing LAN"
 description              : "Self-introduction, blogs, etc."
 url                      : "https://Lan-Jing.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -93,11 +93,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Jing Lan"
+  name             : "Jing LAN"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Systems and HPC."
-  location         : "Guangzhou, China"
-  email            : "lanj25@mail2.sysu.edu.cn"
+  bio              : "A Google-oriented Programmer"
+  location         : "122A, Ho Sin-Hang Engineering Building, CUHK, Sha Tin, HKSAR"
+  email            : "jlan22@cse.cuhk.edu.hk"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"

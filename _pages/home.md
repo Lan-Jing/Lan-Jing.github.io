@@ -6,9 +6,9 @@ permalink: /
 author_profile: true
 ---
 
-Hey, I am Jing LAN, an incoming MPhil student at CSE, Chinese University of Hong Kong (CUHK). I am fortunate to be supervised by [Prof. James Cheng](https://www.cse.cuhk.edu.hk/~jcheng/). 
+Hey, I am LAN Jing, an MPhil student at CSE, The Chinese University of Hong Kong (CUHK). I am fortunate to be supervised by [Prof. James Cheng](https://www.cse.cuhk.edu.hk/~jcheng/). 
 
-I was an undergraduate at Sun Yat-sen University, where I was an RA with [Prof. Dan Huang](https://scholar.google.com/citations?hl=en&user=Bo6PwnQAAAAJ&view_op=list_works&sortby=pubdate). I spent two years (one as leader) on HPC competitions with [SYSU Student Cluster Competition Team](https://scc.sysu.tech/).
+I was an undergraduate at Sun Yat-sen University, where I did RA with [Prof. Dan Huang](https://scholar.google.com/citations?hl=en&user=Bo6PwnQAAAAJ&view_op=list_works&sortby=pubdate). I spent two years (one as leader) on HPC competitions with [SYSU Student Cluster Competition Team](https://scc.sysu.tech/).
 
 ## Research Interests
 
@@ -17,6 +17,10 @@ Distributed systems and high-performance computing (HPC)
 ## Publications
 
 TBD
+
+## Teaching
+
+CSCI1540, Fundamental Computing With C++, 2022 Semester 1
 
 ## News
 
