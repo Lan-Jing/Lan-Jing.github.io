@@ -14,6 +14,8 @@ I was an undergraduate at Sun Yat-sen University, where I did RA with [Prof. Dan
 
 Distributed systems and high-performance computing (HPC)
 
+For now I have a particular focus on optimizing graph database design with "system" techniques.
+
 ## Publications
 
 TBD
