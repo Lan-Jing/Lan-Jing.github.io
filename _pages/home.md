@@ -12,9 +12,9 @@ I obtained my BEng degree from Sun Yat-sen University, where I did RA with [Prof
 
 ## Research Interests
 
-I have a broad interest in building efficient distributed systems. My current focus is on optimizing OLAP DB engines for diverse input workloads.
+I have a broad interest in building efficient distributed systems. I focus on exploring systems' interaction with the hardware and their application patterns.
 
-At CUHK, we've been building an in-memory, disaggregated graph OLAP engine designed for concurrently handling highly skewed workloads.
+At CUHK, my ongoing project is an in-memory, disaggregated graph OLAP engine designed for concurrently handling highly skewed workloads.
 
 ## Publications
 
