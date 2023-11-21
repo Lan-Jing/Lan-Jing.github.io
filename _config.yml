@@ -106,6 +106,7 @@ author:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/jing-lan-5387491b9/"
     - label: "Resume"
+      icon: "fas fa-fw fa-link"
       url: "/assets/Jing Lan.pdf"
 
 # Site Footer
