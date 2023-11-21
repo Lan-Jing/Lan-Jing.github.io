@@ -32,4 +32,5 @@ CSCI1540, Fundamental Computing With C++, 2022 Semester 1
 
 ## Misc
 
-I am an amateur badminton player.
+* I am an amateur badminton player.
+* I (when in Hong Kong) occasionly play Texas Hold'em with my friends.
