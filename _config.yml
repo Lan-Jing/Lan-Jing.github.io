@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jing LAN"
+title                    : "Jing Lan"
 title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Jing LAN"
+name                     : "Jing Lan"
 description              : "Self-introduction, blogs, etc."
 url                      : "https://Lan-Jing.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -93,7 +93,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Jing LAN"
+  name             : "Jing Lan"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Trying to build good systems :)"
   location         : "122A SHB, CUHK, Sha Tin, HKSAR"
@@ -107,7 +107,7 @@ author:
       url: "https://www.linkedin.com/in/jing-lan-5387491b9/"
     - label: "Resume"
       icon: "fas fa-fw fa-link"
-      url: "/assets/Jing Lan.pdf"
+      url: "/assets/resume.pdf"
 
 # Site Footer
 footer:
