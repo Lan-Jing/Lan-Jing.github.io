@@ -94,10 +94,10 @@ analytics:
 # Site Author
 author:
   name             : "Jing Lan"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Trying to build good systems :)"
-  location         : "122A SHB, CUHK, Sha Tin, HKSAR"
-  email            : "jlan22@cse.cuhk.edu.hk"
+  avatar           : "/assets/images/informal.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Grad student @ UW-Madison"
+  location         : "Madison WI, USA"
+  email            : "jlan25@wisc.edu"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -105,9 +105,9 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/jing-lan-5387491b9/"
-    - label: "Resume"
+    - label: "CV"
       icon: "fas fa-fw fa-link"
-      url: "/assets/resume.pdf"
+      url: "/assets/cv.pdf"
 
 # Site Footer
 footer:
