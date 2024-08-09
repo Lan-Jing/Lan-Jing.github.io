@@ -20,7 +20,7 @@ title                    : "Jing Lan"
 title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Jing Lan"
-description              : "Self-introduction, blogs, etc."
+description              : "Information about Jing"
 url                      : "https://Lan-Jing.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "Lan-Jing/Lan-Jing.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"

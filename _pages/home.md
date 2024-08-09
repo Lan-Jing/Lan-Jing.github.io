@@ -6,7 +6,7 @@ permalink: /
 author_profile: true
 ---
 
-Hey, I'm Jing Lan. I am a Computer Science PhD student at University of Wisconsin-Madison. I'm fortunate to work with [Prof. Ming Liu](https://pages.cs.wisc.edu/~mgliu/) at [NetLab](https://madnets.cs.wisc.edu/).
+Hey, I'm Jing Lan. I am a Computer Sciences PhD student at University of Wisconsin-Madison. I'm fortunate to work with [Prof. Ming Liu](https://pages.cs.wisc.edu/~mgliu/) at [NetLab](https://madnets.cs.wisc.edu/).
 
 I obtained my MPhil degree from CUHK and BEng from Sun Yat-sen University (SYSU). I spent two years (one as leader) on HPC competitions with SYSU Student Cluster Competition (SCC) Team.
 
@@ -16,7 +16,8 @@ I have a broad interest in building efficient distributed systems.
 
 ## Teaching
 
-CSCI1540, Fundamental Computing With C++, 2022 Semester 1
+* CS300 - Programming II (Fall 2024)
+* CSCI1540 - Fundamental Computing With C++ (Fall 2022)
 
 ## News
 
