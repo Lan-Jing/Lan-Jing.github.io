@@ -16,6 +16,7 @@ I have a broad interest in building efficient distributed systems.
 
 ## Teaching
 
+* CS544 - Introduction to Big Data Systems (Spring 2025)
 * CS300 - Programming II (Fall 2024)
 * CSCI1540 - Fundamental Computing With C++ (Fall 2022)
 
